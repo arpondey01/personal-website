@@ -27,7 +27,7 @@ body{
     font-size: 35px;
 }
 .mii-color{
-    color:blueviolet;
+    color:#FF4F5A;
 }
 .mission-text p{
     color:cadetblue;
@@ -51,7 +51,7 @@ body{
 
 /*-------end header-sec-----*/
 
-/*-------start about-sec----*/ 
+/*-----start about-sec-----*/
 
 .web-title{
     text-align: center;
@@ -60,55 +60,111 @@ body{
 .web-about{
     display: flex;
     width: 80%;
-    padding-left:10%;
+    padding-left:8%;
+}
+.details img{
+    height: 100px;
+    width: 100px;
 }
 .details{
-    
+    height: 300px;
+    width: 350px;
+    margin: 50px 20px 20px 80px;
+    padding: 30px;
+    background-color:#bdd1df;
+    border-radius: 5px;
+}
+.first-card{
+    background-color: #ECF0F3;
+}
+.sceond-crad{
+    background-color: #FBFCFC;
+}
+.third-card{
+    background-color: #FAFBFC;
 }
 
+/*-----end about-sec-----*/
 
+/*-----start practice-sec-----*/
 
-
-
-
-/*.first-section{
+.practice-sec{
     display: flex;
-    font-family:'titillium web', sans-serif;
+
+}
+.practice-pic img{
+    width:80%;
+    padding-top:10%;
+    padding-left: 20%;
+}
+.practice-text{
+    padding-top: 15%;
     padding-left: 10%;
 }
-.text{
-    padding-top: 10%;
+.practice-text p{
+    color:cadetblue;
+    padding-right:150px;
 }
-.section-half{
-    width:50%;
-}
-.section-half img{
-    width:100%;
-}
-.font-bg{
 
-    border-left: 3px solid;
-    border-image: linear-gradient(red, blue );
-    border-image-slice: 1;
+
+/*-----end practice-sec-----*/
+
+/*-----start practice-sec-----*/
+
+.project-sec{
+    display: flex;
 }
-.font-bg h1{
-    padding-left: 5px;
-    font-size: 40px;
+.project-pic img{
+    width:80%;
+    padding-top:10%;
+    padding-right: 20%;
 }
-.font-color{
-    color:#1473E6;
+.project-text{
+    padding-top: 10%;
+    padding-left: 10%;
 }
-.section-half p{
-    color:#969696;
-    padding-right: 70px;
+.project-text p{
+    color:cadetblue;
+    padding-right: 80px;
 }
-.section-half button{
-    background-color:#A08638;
-    border: none;
-    border-bottom: 2px solid #c86a40;
-    padding: 10px 40px;
-    margin-top: 10px;
-    border-radius: 4px;
-	color:#fff;
-	font-family:titillium web;
-}*/
+
+/*-----end practice-sec-----*/
+
+/*-----start app-sec-----*/
+.app-title{
+    text-align: center;
+    font-size:23px;
+}
+.app-sec{
+    display: flex;
+}
+.app-pic img{
+    width:60%;
+    padding-top:10%;
+    padding-left: 20%;
+}
+.app-text{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.app-text p{
+    color:cadetblue;
+    padding-right: 100px;
+}
+/*-----end app-sec-----*/
+
+.footer-sec{
+    background-color: #000000;
+    height: 100px;
+}
+.footer-text{
+    color:#fff;
+    text-align: center;
+}
+.footer-text h2{
+    color:#FF4F5A;
+    padding-top: 10px;
+}
+.footer-text p{
+    font-size:small;
+}
